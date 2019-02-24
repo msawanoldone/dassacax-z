@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "E"
-const adminprefix = "E"
+const prefix = "Se"
+const adminprefix = "Se"
 client.on('message', message => {
 if (message.author.id === client.user.id) return;
 if (message.guild) {
